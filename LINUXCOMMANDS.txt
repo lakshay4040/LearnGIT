@@ -1,0 +1,85 @@
+LINUX COMMANDS
+
+>> ls 
+use this for listing the source
+
+SYNTAX: $ ls [options] [file|dir]
+
+SWITCHES OF ls command
+ls -a	
+used to list all files including hidden file starting with '.'
+ls --color	
+used to list the colored list [=always/never/auto]
+ls -d	
+used to list directories - with ' */'
+ls -F	
+used to add one char of */=>@| to enteries
+ls -i	
+used to list file's inode index number
+ls -l	
+used to list with long format - show permissions
+ls -la	
+used to list long format including hidden files
+ls -lh	
+used to list long format with readable file size
+ls -ls	
+used to list with long format with file size
+ls -r	
+used to list in reverse order
+
+> cd 
+syntax: cd/
+it is used to change directory
+
+> pwd 
+syntax:  $ PWD
+it is used to print working directory
+
+> cat
+syntax: cat [OPTION] [FILE]... 
+it is used to print the content of a file
+
+> touch 
+syntax: touch [option] file_name(s) [can be used for multiple files too]
+it is used to create a file
+
+> head,tail 
+similar to cat command
+
+> nano,gedit,vi (editor's of linux) like notepad
+
+> chmod,chown 
+syntax: chmod [options] mode[,mode] file1 [file2 ...]
+used to change file permissions
+
+> grep 
+syntax: grep [options] [pattern] [file]
+it is itself a tool - used to search plain text datasets and lot more
+
+> mkdir 
+it is used for creating a directory
+syntax: mkdir directory_name
+
+> which
+syntax: which [filename1] [filename2] ...
+used to find/loacate a file in a directory or its subdirectories
+
+> Find tool 
+syntax: $ find [where to start searching from]
+ [expression determines what to find] [-options] [what to find]
+it justifies its name
+
+> cp or mv 
+syntax:# cp [options] source1 source2 [...] destination_directory
+used for copying and moving a file
+
+-a – archive, never follow symbolic links, preserve links, copy directories recursively
+-f – if an existing destination file cannot be opened, remove it and try again
+-i – prompt before overwriting an existing file
+-r – copy directories recursively
+
+
+
+> rm, rmdir 
+syntax:rmdir [-p] [-v | –verbose] [–ignore-fail-on-non-empty] directories …
+used for deleting a file
